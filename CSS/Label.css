@@ -165,29 +165,36 @@ animation: slide 20s infinite ease-in-out;
   
 
 @media screen and (max-width:571px) {
-  .slideshow{
-    width: 400px;
-  }
-    .side-bar a {
-        background: #fff;
+  .slideshow{width: 400px;}
+    
+  .side-bar a {
+     background: #fff;
         color: black;
         padding: 8px 30px;
         border-radius: 4px;
         display: flex;
         border: 3px solid ;
         width: 100px;
+       
     }
-    .down-btn{
-      display: none;
-    }
-    #history h1 , p{
-      font-size: 4vw;
+    .down-btn{ display: none;}
      
-  
+    
+    #history h1 , p{font-size: 4vw;} 
+      
     } 
+  
+    
 
         
-     }
+     
+     @media screen and (max-width:376px) {
+
+      .nav-links a{ 
+          
+          margin-left: 4px;}
+          
+       }
    
 
 

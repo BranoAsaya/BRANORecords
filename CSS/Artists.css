@@ -117,7 +117,13 @@ nav{
 
       }   
     
-    
+      @media screen and (max-width:376px) {
+
+        .nav-links a{ 
+            
+            margin-left: 4px;}
+            
+         }
        
         
     
